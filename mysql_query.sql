@@ -1,3 +1,4 @@
+--Firstly use the created database
 use airline_data;
 
 CREATE TABLE IF NOT EXISTS Airline (
