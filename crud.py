@@ -119,7 +119,8 @@ def exit_program():
 
 def invalid_choice():
     return 'Invalid choice entered'
-
+    
+# There is no switch statement in python so we can use dictionary as an alternate way.
 def start_app():
     crud_options = {
         1 : insert,
